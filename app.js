@@ -9,7 +9,7 @@ const PORT = 8000;
 app.use(bodyParser.json());
 
 // create app endpoint
-app.post("/youtube/live", (req, res) => {
+app.post("/live", (req, res) => {
   // information coming as input
   const { CONTENT_URL, STREAM_URL } = req.body;
 
